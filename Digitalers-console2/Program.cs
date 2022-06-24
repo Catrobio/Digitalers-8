@@ -1,5 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System;
+﻿
+//Mostrar el numero mayor
 void main()
 {
     int a = 10;
@@ -15,6 +15,7 @@ void main()
     }
 }
 
+//dado tres numero indicar cual es el numero mayor
 void ejemplo1()
 {
     int a = 10;
@@ -36,6 +37,7 @@ void ejemplo1()
     }
 }
 
+//Ejemplo uno con condicional no perezoso
 void ejemploPere()
 {
     int a = 10;
@@ -56,7 +58,7 @@ void ejemploPere()
     }
 }
 
-
+//Ingresar dos numeros y si son positivos mostrar la multiplicación por 10
 void ejemplo2()
 {
     string a, b;
@@ -93,7 +95,8 @@ void ejemplo2()
     }
 
 }
-
+//Pedir dos variables usuario y contraseña. Sabiendo que el usuario correcto es "Pablo" y la contraseña "1234":
+// devolver mensaje de usuario o contraseña incorrecto; Usuario no existe y Bienvenido
 void ejemplo3()
 {
     string usuario, contraseña;
@@ -148,6 +151,8 @@ void ejemplo3_1()
     }
 }
 
+//Solicitar dos numeros y dado a la opcion del menu ejeuctar:
+//a:Suma; b:Resta; c:Multiplicacion; d:Division; e:Potencia; f: Raiz cuadrada.
 
 void ejemplo4()
 {

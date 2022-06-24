@@ -5,9 +5,9 @@ VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digitalers-console1", "Digitalers-console1\Digitalers-console1.csproj", "{DA3AD523-F27E-4660-835C-3465D63173FC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digitalers-console2", "Diogitalers-console2\Digitalers-console2.csproj", "{7F33766F-0332-4B8C-A91F-C93CCFAD6583}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digitalers-console3", "Digitalers-console3\Digitalers-console3.csproj", "{3BDD9074-A336-4F39-AAC9-C114EF31BC1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitalers-console3", "Digitalers-console3\Digitalers-console3.csproj", "{3BDD9074-A336-4F39-AAC9-C114EF31BC1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digitalers-console2", "Digitalers-console2\Digitalers-console2.csproj", "{CD73C33E-1A70-4964-B49B-6F3FDDC4A050}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{DA3AD523-F27E-4660-835C-3465D63173FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA3AD523-F27E-4660-835C-3465D63173FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA3AD523-F27E-4660-835C-3465D63173FC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7F33766F-0332-4B8C-A91F-C93CCFAD6583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7F33766F-0332-4B8C-A91F-C93CCFAD6583}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7F33766F-0332-4B8C-A91F-C93CCFAD6583}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7F33766F-0332-4B8C-A91F-C93CCFAD6583}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3BDD9074-A336-4F39-AAC9-C114EF31BC1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3BDD9074-A336-4F39-AAC9-C114EF31BC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BDD9074-A336-4F39-AAC9-C114EF31BC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BDD9074-A336-4F39-AAC9-C114EF31BC1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD73C33E-1A70-4964-B49B-6F3FDDC4A050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD73C33E-1A70-4964-B49B-6F3FDDC4A050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD73C33E-1A70-4964-B49B-6F3FDDC4A050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD73C33E-1A70-4964-B49B-6F3FDDC4A050}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
