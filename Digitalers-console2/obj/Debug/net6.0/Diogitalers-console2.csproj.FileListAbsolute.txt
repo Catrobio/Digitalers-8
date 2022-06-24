@@ -1,0 +1,15 @@
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Diogitalers-console2\bin\Debug\net6.0\Diogitalers-console2.exe
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Diogitalers-console2\bin\Debug\net6.0\Diogitalers-console2.deps.json
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Diogitalers-console2\bin\Debug\net6.0\Diogitalers-console2.runtimeconfig.json
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Diogitalers-console2\bin\Debug\net6.0\Diogitalers-console2.dll
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Diogitalers-console2\bin\Debug\net6.0\Diogitalers-console2.pdb
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Diogitalers-console2\obj\Debug\net6.0\Diogitalers-console2.csproj.AssemblyReference.cache
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Diogitalers-console2\obj\Debug\net6.0\Diogitalers-console2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Diogitalers-console2\obj\Debug\net6.0\Diogitalers-console2.AssemblyInfoInputs.cache
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Diogitalers-console2\obj\Debug\net6.0\Diogitalers-console2.AssemblyInfo.cs
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Diogitalers-console2\obj\Debug\net6.0\Diogitalers-console2.csproj.CoreCompileInputs.cache
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Diogitalers-console2\obj\Debug\net6.0\Diogitalers-console2.dll
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Diogitalers-console2\obj\Debug\net6.0\refint\Diogitalers-console2.dll
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Diogitalers-console2\obj\Debug\net6.0\Diogitalers-console2.pdb
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Diogitalers-console2\obj\Debug\net6.0\Diogitalers-console2.genruntimeconfig.cache
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Diogitalers-console2\obj\Debug\net6.0\ref\Diogitalers-console2.dll
