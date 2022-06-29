@@ -1,0 +1,15 @@
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Digitalers-console4\bin\Debug\net6.0\Digitalers-console4.exe
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Digitalers-console4\bin\Debug\net6.0\Digitalers-console4.deps.json
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Digitalers-console4\bin\Debug\net6.0\Digitalers-console4.runtimeconfig.json
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Digitalers-console4\bin\Debug\net6.0\Digitalers-console4.dll
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Digitalers-console4\bin\Debug\net6.0\Digitalers-console4.pdb
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Digitalers-console4\obj\Debug\net6.0\Digitalers-console4.csproj.AssemblyReference.cache
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Digitalers-console4\obj\Debug\net6.0\Digitalers-console4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Digitalers-console4\obj\Debug\net6.0\Digitalers-console4.AssemblyInfoInputs.cache
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Digitalers-console4\obj\Debug\net6.0\Digitalers-console4.AssemblyInfo.cs
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Digitalers-console4\obj\Debug\net6.0\Digitalers-console4.csproj.CoreCompileInputs.cache
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Digitalers-console4\obj\Debug\net6.0\Digitalers-console4.dll
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Digitalers-console4\obj\Debug\net6.0\refint\Digitalers-console4.dll
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Digitalers-console4\obj\Debug\net6.0\Digitalers-console4.pdb
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Digitalers-console4\obj\Debug\net6.0\Digitalers-console4.genruntimeconfig.cache
+C:\Users\fpacheco\source\repos\EducacionIT\Digitalers\Digitalers-console4\obj\Debug\net6.0\ref\Digitalers-console4.dll
