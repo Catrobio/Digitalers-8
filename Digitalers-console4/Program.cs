@@ -60,7 +60,7 @@ void ejemplo2()
     {
         for (int j = 0; j < 5; j++)
         {
-            Console.Write(numeros[i,j]);
+            Console.Write("{0}\t",numeros[i,j]);
         }
         Console.WriteLine();
     }
@@ -77,9 +77,9 @@ void ejemplo3()
 
     int[,] Matriz = new int[x, y];
 
-    for (int i = 0; i < x; i++)
+    for (int i = 0; i < Matriz.GetLength(0); i++)
     {
-        for (int j = 0; j < y; j++)
+        for (int j = 0; j < Matriz.GetLength(1); j++)
         {
             Matriz[i, j] = objRandom.Next(100);
             Console.WriteLine("Matriz[{0},{1}] = {2}", i, j, Matriz[i, j]);
@@ -158,20 +158,127 @@ void ejercicio1()
 //- Promedio de inflacion 
 
 void ejercicio2()
-{
-    double[] inflacion = { 0.8, 0.1, 0.3, 0.4, 0.3, 0.6, 0.5, 0.3, 0.7, 0.3, 0.2, 0.9 };
-    double inlfacionAnual = 0;      
+{    
+    double[] inflacion = { 0.8, 0.1, 0.3, 0.4, 0.3, 0.6, 0.5, 0.3, 0.7, 0.9, 0.9, 0.9 };
+    string[] meses = { "enero","febrero","marzo","abril","mayo","junio",
+                        "julio","agosto","septiembre","octubre","noviembre","diciembre"};
+   
+    double inlfacionAnual = 0, valorMin = inflacion[0], valorMax = inflacion[0];
+    string mesMin= "", mesMax = "";  
 
     for (int i = 0; i < inflacion.Length; i ++)
     {
         inlfacionAnual += inflacion[i];
+
+        if (inflacion[i] < valorMin)
+        {
+            valorMin = inflacion[i];
+            mesMin = meses[i];
+        }
+
+        if (inflacion[i] > valorMax)
+        {
+            valorMax = inflacion[i];
+            mesMax = meses[i];            
+        }
     }
+    
 
     Console.WriteLine("La inflacion anual es de {0}", inlfacionAnual);
+    Console.WriteLine("La inflacion mas baja fue en el mes {0} y fue de {1}", mesMin, valorMin);
+    Console.WriteLine("La inflacion mas alta fue en el mes {0} y fue de {1}", mesMax, valorMax);
+    Console.WriteLine("El promedio de la inflacion {0}", inlfacionAnual/12);
+
+    // Calcular las veces que se repite 
+    //cuento las veces que se repite
+    int contador = 0;
+    //creo un array con los meses 
+    string[] mesesRepite = new string[1];
+
+    for (int i = 0; i < inflacion.Length; i++)
+    {
+        if (inflacion[i] == valorMax)
+        {
+            if(contador >= 1)
+            {
+                //Aca redimencionamos el array dinamicamente 
+                Array.Resize(ref mesesRepite, contador + 1);
+            }
+            mesesRepite[contador] = meses[i];
+
+            contador++;
+        }
+    }
+    //recorro el array 
+    foreach (var mes in mesesRepite)
+    {
+        Console.WriteLine("Mes de inflacion maxima {0}", mes);
+    }
+    
 
 }
 
+//Solucion Camila
+void inflacionCami()
+{
+    double[] inflacion = { 0.8, 0.1, 0.3, 0.4, 0.3, 0.6, 0.5, 0.3, 0.7, 0.3, 0.2, 0.9 };
+    string[] meses = { "enero","febrero","marzo","abril","mayo","junio",
+                        "julio","agosto","septiembre","octubre","noviembre","diciembre"};
 
+    //  ---IMPRIMIR INFLACION TOTAL---
+    //var total = inflacion.Sum();
+    //                                      total
+    Console.WriteLine("Inflacion total: " + inflacion.Sum());
+
+    //  ---OBTENER INDICES CON MENOR Y MAYOR INFLACION---
+    int indice_menor = Array.IndexOf(inflacion, inflacion.Min());
+    int indice_mayor = Array.IndexOf(inflacion, inflacion.Max());
+
+    //  ---IMPRIMIR MESES CON MENOR Y MAYOR INFLACION---
+    Console.WriteLine("Mes con menor inflacion: " + meses[indice_menor]);
+    Console.WriteLine("Mes con mayor inflacion: " + meses[indice_mayor]);
+
+    //  ---OBTENER E IMPRIMIR PROMEDIO---
+    //                total
+    double promedio = inflacion.Sum() / inflacion.Length;
+    Console.WriteLine("Promedio de la inflacion: " + promedio);
+}
+
+//Ingresar 3 datos por teclado
+//calcular facturacion total X
+//el promedio de la facturacion
+//Maxima y minima
+void ejercicio3()
+{
+    double[] facturas = new double[3];
+    string[] meses = { "enero","febrero","marzo","abril","mayo","junio",
+                        "julio","agosto","septiembre","octubre","noviembre","diciembre"};
+
+    for (int i = 0; i < facturas.Length; i++)
+    {
+        Console.Write("Ingrese el monto de {0}: ", meses[i]);
+        facturas[i] = Convert.ToDouble(Console.ReadLine());
+    }
+
+    var Total = facturas.Sum();
+    var promedio = Total / 3; //facturas.Length;
+    var facturaMax = facturas.Max();
+    var facturaMin = facturas.Min();
+    var MesMax = Array.IndexOf(facturas, facturas.Max());
+    var MesMin = Array.IndexOf(facturas, facturas.Min());
+
+    Console.WriteLine("La facturacion total es: {0}", Total);
+    Console.WriteLine("El promedio de la facturacion: {0}", promedio);
+    Console.WriteLine("La facturacion maxima fue de: {0} en el mes de {1}", facturaMax, meses[MesMax]);
+    Console.WriteLine("La facturacion Minima fue de: {0} en el mes de {1}", facturaMin, meses[MesMin]);
+}
+
+
+
+
+
+//inflacionCami();
+//ejercicio3();
 ejercicio2();
 //ejercicio1();
 //ejemplo4();
