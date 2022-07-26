@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Digitalers-Console6/1.0.0": {
+        "runtime": {
+          "Digitalers-Console6.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Digitalers-Console6/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

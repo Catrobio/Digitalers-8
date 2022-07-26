@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digitalers-console2", "Digi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digitalers-console4", "Digitalers-console4\Digitalers-console4.csproj", "{15534FC4-EB3A-4EF4-B079-CC56076D6732}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitalers-Console5", "Digitalers-Console5\Digitalers-Console5.csproj", "{6E0E790F-A0C6-4BFA-8F84-9400090A2304}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digitalers-Console5", "Digitalers-Console5\Digitalers-Console5.csproj", "{6E0E790F-A0C6-4BFA-8F84-9400090A2304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digitalers-Console6", "Digitalers-Console6\Digitalers-Console6.csproj", "{79B0D08A-C628-41B3-9D85-197DE4F2AD6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{6E0E790F-A0C6-4BFA-8F84-9400090A2304}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E0E790F-A0C6-4BFA-8F84-9400090A2304}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E0E790F-A0C6-4BFA-8F84-9400090A2304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79B0D08A-C628-41B3-9D85-197DE4F2AD6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B0D08A-C628-41B3-9D85-197DE4F2AD6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B0D08A-C628-41B3-9D85-197DE4F2AD6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B0D08A-C628-41B3-9D85-197DE4F2AD6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
